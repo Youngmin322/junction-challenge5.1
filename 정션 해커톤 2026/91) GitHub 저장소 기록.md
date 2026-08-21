@@ -18,7 +18,7 @@ related:
 
 - 원격 저장소: [Youngmin322/junction-challenge5.1](https://github.com/Youngmin322/junction-challenge5.1)
 - GitHub Wiki: [junction-challenge5.1 Wiki](https://github.com/Youngmin322/junction-challenge5.1/wiki)
-- 로컬 경로: `/Users/e.j.l/Documents/Codex/정션2026/junction-challenge5.1`
+- 현재 로컬 경로: `/Users/e.j.l/Documents/정션2026/junction-challenge5.1`
 - 기본 브랜치: `main`
 
 ## 팀 구성
@@ -38,6 +38,20 @@ related:
 - Wiki는 문제 → 해결 → 검증 → 임팩트 → 피칭 순서의 뼈대를 제공
 
 ## 주요 변경 이력
+
+### 작업 문서 공유
+
+- 브랜치: `DocsShare`
+- 커밋: `7e382f9 정션 해커톤 작업 문서 공유`
+- 정션 작업 산출물 7개를 `정션 해커톤 2026/` 폴더에 공유
+- 저장소가 공개 상태이므로 개인 프로필·지원서·팀 갈등 회고가 포함된 `시작전/` 문서는 제외
+
+### 트랙 변경에 따른 로컬 정리
+
+- 팀 결정에 따라 활성 트랙을 Microsoft Korea × 경상북도 공공데이터 트랙으로 변경
+- Lablup 전용 브리프·근거·자동 전사는 로컬 `DocsShare` 작업 트리에서 제거 대상으로 정리
+- 공공데이터 트랙 브리프·근거·트래커·허브·로그를 추가 또는 갱신
+- 이후 사용자 요청에 따라 `DocsShare` 브랜치에 커밋·원격 반영 진행
 
 ### 한글 파일명 정규화
 
@@ -62,4 +76,3 @@ related:
 - 팀 공유 저장소에 push하기 전 변경 범위와 diff를 확인한다.
 - 의료·개인정보 또는 인증 정보는 공개 저장소에 올리지 않는다.
 - 사실, 실험 결과, 검증 수치를 Wiki의 문제·해결·검증·임팩트 구조에 맞춰 누적한다.
-
