@@ -14,6 +14,17 @@ Junction 해커톤에 참가하기 위해 모인 팀 저장소입니다. 팀 이
 
 회의록, 조사 자료 같은 문서는 [GitHub 위키](https://github.com/Youngmin322/junction-challenge5.1/wiki)에 모아서 정리하기로 했습니다.
 
+### MCP·에이전트 구현 설계 문서
+
+한울 주변 대량 해파리 군집 감시 대시보드의 데이터 통합과 MCP 연결 설계는 다음 순서로 읽습니다.
+
+1. [데이터 통합 근거 원장](docs/01-data-integration-evidence.md) — 실제 호출 결과와 데이터별 사용 가능 범위
+2. [MCP·에이전트 승인 설계](docs/02-mcp-agent-architecture.md) — 데이터 계약, 도구, 상태 및 보안 경계
+3. [원격 데이터 수집 브랜치 이식 지도](docs/03-remote-branch-migration-map.md) — 기존 수집 코드에서 선택적으로 옮길 요소
+4. [로컬 MCP 서버를 Copilot Studio에 연결하기](docs/04-copilot-studio-local-mcp-connection.md) — Dev Tunnel과 Streamable HTTP 기반 연결·검증 절차
+
+구현 전에는 1번과 2번으로 데이터·기능 경계를 확인하고, 실제 연결 단계에서 4번을 사용합니다.
+
 ### 위키 구조와 이유
 
 이 팀은 조사 자료를 모으는 걸로 끝내지 않고, 모인 자료를 그대로 최종 피칭 뼈대로 쓰려고 합니다. 그래서 위키 사이드바를 해커톤 피칭이 실제로 심사받는 순서 — **문제 → 해결 → 검증 → 임팩트** — 그대로 따르게 만들었습니다. 이 순서대로 자료가 쌓이면, 발표 직전엔 그 문서들을 훑기만 해도 피칭 스크립트가 나옵니다.
